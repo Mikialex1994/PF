@@ -1,0 +1,108 @@
+@charset "UTF-8";
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Times New Roman', sans-serif;
+	box-sizing: border-box;
+}
+.wakanda{
+	
+height: 100vh;
+width: 100%;
+background-image: url(../img/ff.jpg);
+background-size: cover;
+background-position: center;
+}
+nav {
+display: flex;
+align-items: center;
+justify-content: space-between;	
+padding-top: 45px;
+padding-left: 8%;
+padding-right: 8%;
+}
+.logo {
+	color: white;
+	font-size: 40px;
+	letter-spacing: 3px;
+	cursor: pointer;
+	
+}
+
+span {
+	color: black;
+	
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+	color: white;
+}
+nav ul li a{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+	
+}
+nav ul li a:hover{
+	
+	color: white;
+	transition: .4s;
+}
+.content{
+	position: absolute;
+	top: 50%;
+	left: 8%;
+	transform: translateY(-50%);
+	
+}
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+h4{
+	color: #c0c0c0;
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+.newslatter form {
+	width: 380px;
+	max-width: 100%;
+	position: relative;
+}
+.newslatter form input {
+	display: inline-block;
+	width: 100%;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid transparent;
+	outline: none;
+	border-radius: 30px;
+}
+
+.newslatter form input[type="submit"] {
+	position: relative;
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color: transparent;
+	color: white;
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+	color: black;
+
+}
+.newslatter form input[type="submit"]:hover{
+	
+	background-color: pink;
+	transition: .4s;
+}

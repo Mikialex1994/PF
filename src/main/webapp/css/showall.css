@@ -1,0 +1,92 @@
+@charset "UTF-8";
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Times New Roman', sans-serif;
+	box-sizing: border-box;
+}
+.wakanda{
+	
+height: 100vh;
+width: 100%;
+background-image: url(../img/coffee.jpg);
+background-size: cover;
+background-position: center;
+}
+nav {
+display: flex;
+align-items: center;
+justify-content: space-between;	
+padding-top: 45px;
+padding-left: 8%;
+padding-right: 8%;
+}
+.logo {
+	color: white;
+	font-size: 40px;
+	letter-spacing: 3px;
+	cursor: pointer;
+	
+}
+
+span {
+	color: pink;
+	
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+	color: black;
+}
+nav ul li a{
+	 	
+	color: white;
+	text-decoration: none !important;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	
+	color: pink;
+	transition: .4s;
+}
+.container{
+	
+	
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+	color: white;
+	
+}
+
+.a{
+	
+ color: pink;
+ margin-bottom: 80px;
+ margin-left: 120px;
+	
+}
+
+
+
+.tr{
+	color: pink;
+	font-size: 19px;
+}
+.td{
+	
+	color: white;
+	
+}
+.btn2 {
+	
+	color: white;
+	margin-left: 10px;
+	
+	
+}
+
